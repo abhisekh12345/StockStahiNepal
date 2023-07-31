@@ -1,0 +1,19 @@
+.mainContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+    background-color: #f8f8fc;
+    margin-top: 0.3rem;
+    padding: 0.1rem 0.2rem; 
+}
+
+
+
+.editPaper{
+  height: 2rem;
+ 
+}
+
+.inputedit{
+    font-size: 13px;
+}

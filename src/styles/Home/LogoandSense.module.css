@@ -1,0 +1,11 @@
+
+.firstpart{
+    /* border : 1px solid red; */
+    display: flex;
+}
+
+
+.senesDiv{
+    /* border: 1px solid yellow; */
+    width: 44rem
+}

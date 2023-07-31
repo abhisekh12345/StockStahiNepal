@@ -1,0 +1,38 @@
+.firstNews{
+    margin-top: 0.7rem;
+    border: 1px solid var(--grey-300);
+    height: auto;
+    border-top: 20px solid var(--secondary-300);
+    border-radius: 20px;
+}
+
+.contentStart{
+    /* border: 1px solid red; */
+    padding: 0.2rem 0.3rem;
+}
+
+.textEditing{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.imageDIv{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ContentParagraph{
+    font-size: 13.5px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

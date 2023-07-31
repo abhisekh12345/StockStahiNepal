@@ -1,0 +1,64 @@
+.mainContainer{
+    /* border: 1px solid red; */
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+
+
+.MustreadPaper{
+      width: 10rem;
+      height: 2.5rem;
+      padding: 0.5rem 1rem ;
+}
+
+
+.MustreadText{
+   text-align: center;
+   font-size: 15px;
+   font-weight: 600;
+   color: var(--secondary-800);
+} 
+
+.horizontalLine{
+    border: 1px solid var(--secondary-800);
+    width: 35rem;
+}
+
+.displayFlex{
+    display: flex;
+    align-items: center;
+}
+
+.Contentstart{
+    /* border: 1px solid red; */
+    margin-top: 0.8rem;
+}
+
+.ContentHeading{
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+
+.imageDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem 0rem;
+}
+
+.ContentParagraph{
+    font-size: 15px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+
+.mainContainertwo{
+    /* border: 1px solid green; */
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
