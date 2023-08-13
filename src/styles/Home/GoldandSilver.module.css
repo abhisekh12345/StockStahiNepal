@@ -18,11 +18,12 @@
     color: var(--secondary-800);
  } 
 
-
- .horizontalLine{
-    border: 1px solid var(--secondary-800);
-    width: 12rem;
-}
+ .displayFlex::after {
+    content: "";
+    flex-grow: 1;
+    border-bottom: 2px solid var(--secondary-800);
+    /* margin-left: 1rem; Add some spacing between the text and the line */
+  }
 
 .parallelogram1{
         width: 8px;

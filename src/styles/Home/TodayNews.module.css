@@ -18,13 +18,15 @@
  } 
 
 
- .horizontalLine{
-    border: 1px solid var(--secondary-800);
-   width: 62rem ;
-}
+ .displayFlex::after {
+    content: "";
+    flex-grow: 1;
+    border-bottom: 2px solid var(--secondary-800);
+    /* margin-left: 1rem; Add some spacing between the text and the line */
+  }
 
 .container{
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
 }
 
 .smallMargingleft{
@@ -104,10 +106,44 @@
     display: flex;
 }
 
+
 .imgFluid{
     max-width: 100%;
     height: auto;
     display: inline-block;
     vertical-align: middle;
     
+}
+
+.buttonDIv{
+    /* border: 1px solid red; */
+    margin-bottom: 0.7rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center ;
+    justify-content: end;
+}
+
+.Button{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0.3rem 0.9rem;
+    background-color: var(--secondary-700);
+    border: 1px solid var(--grey-300);
+    border-radius: 5px;
+    color: var(--grey-100);
+}
+
+.Button:hover{
+    background-color: white;
+    border: 1px solid var(--secondary-600);
+    color: var(--secondary-600);
+}
+
+.testFirstLine{
+    border: 1px solid red;
+}
+
+.testSecondLine{
+    border: 1px solid yellow;
 }

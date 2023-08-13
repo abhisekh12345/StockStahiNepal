@@ -1,0 +1,31 @@
+.tableStart{
+    margin-top: 1rem;
+}
+
+.ContentTable{
+    border-collapse: collapse;
+    margin: 25px 0px;
+    width: 100%;
+}
+
+.ContentTable thead tr{
+    background-color: var(--secondary-500);
+    text-align: left;
+    color: var(--secondary-900);
+    font-size: 1rem;
+}
+
+.ContentTable th,
+.ContentTable td{
+    padding: 10px 12px;
+}
+
+.ContentTable thead tr th,
+.ContentTable tbody tr td{
+    border: 1px solid var(--grey-200);
+}
+
+.ContentTable tbody tr td{
+    font-size: 1rem;
+    
+}

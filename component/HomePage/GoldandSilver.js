@@ -26,6 +26,7 @@ const GoldandSilver = () => {
                 {/* startingContent */}
 
 
+
                 <div className={style.startingContent}>
                     <div className={style.contentHeading}>
                         <div>

@@ -1,0 +1,50 @@
+.container{
+    margin-top: 1rem;
+    /* margin-bottom: 30rem; */
+}
+
+.boxDiv{
+    /* border: 1px solid red;s */
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.box{
+    border: 1px solid var(--grey-300);
+    padding: 0.5rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+
+.tableStart{
+    margin-top: 1rem;
+}
+
+.ContentTable{
+    border-collapse: collapse;
+    margin: 25px 0px;
+    width: 100%;
+}
+
+.ContentTable thead tr{
+    background-color: var(--secondary-500);
+    text-align: left;
+    color: var(--secondary-900);
+    font-size: 1rem;
+}
+
+.ContentTable th,
+.ContentTable td{
+    padding: 10px 12px;
+}
+
+.ContentTable thead tr th,
+.ContentTable tbody tr td{
+    border: 1px solid var(--grey-200);
+}
+
+.ContentTable tbody tr td{
+    font-size: 1rem;
+    
+}

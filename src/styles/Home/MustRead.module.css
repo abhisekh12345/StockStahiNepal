@@ -21,15 +21,21 @@
    color: var(--secondary-800);
 } 
 
-.horizontalLine{
-    border: 1px solid var(--secondary-800);
-    width: 35rem;
-}
 
 .displayFlex{
     display: flex;
     align-items: center;
 }
+
+.displayFlex::after {
+    content: "";
+    flex-grow: 1;
+    border-bottom: 2px solid var(--secondary-800);
+    /* margin-left: 1rem; Add some spacing between the text and the line */
+  }
+
+
+
 
 .Contentstart{
     /* border: 1px solid red; */

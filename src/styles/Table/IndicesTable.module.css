@@ -1,0 +1,40 @@
+.ContentTable{
+    border-collapse: collapse;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.ContentTable thead tr{
+    background-color: var(--grey-100);
+    text-align: left;
+}
+
+.ContentTable th,
+.ContentTable td{
+    padding: 12px 15px;
+    /* border: 1px solid black; */
+
+}
+
+.ContentTable tbody td{
+    border-bottom: 1.5px solid var(--grey-300);
+}
+
+.ContentTable tbody {
+    color: var(--grey-800);
+}
+
+.green{
+    color: green;
+}
+
+
+
+
+
+
+
+.WiderColumn {
+    width: 250px; /* Adjust the width as needed */
+  }
